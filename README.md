@@ -48,6 +48,3 @@ php artisan serve           # in another terminal
 Built collaboratively by a team covering frontend, backend, and UI/UX design.
 Original repository: https://github.com/rezaageng/cosmic-bunny
 
-## Screenshots
-
-[PLACEHOLDER: add 2-3 screenshots, e.g. home page, cart, admin panel]
