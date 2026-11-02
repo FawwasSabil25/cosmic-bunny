@@ -2,7 +2,7 @@
 
 A digital game e-commerce web app, inspired by other game stores. Built as a team project for the Web Programming Practicum course (Universitas Pasundan).
 
-**Live demo:** https://cosmic-bunny.rezaa.me/ [VERIFY it loads]
+**Live demo:** https://cosmic-bunny.rezaa.me/
 
 ## Features
 
