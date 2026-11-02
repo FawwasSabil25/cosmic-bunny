@@ -1,30 +1,53 @@
-Cosmic Bunny, web e-commerce game digital, terinspirasi dari berbagai e-commerce game lainnya. Proyek ini dibuat untuk keperluan pembelajaran dan sebagai tugas besar mata kuliah Praktikum Pemrograman Web.
+# Cosmic Bunny
 
-Tech Stack :
-- Laravel (PHP)
-- MySQL
-- JWT Authentication
-- Role-based Access Control
-- TailwindCSS
-- Vite
-- HTML & Blade Templates
+A digital game e-commerce web app, inspired by other game stores. Built as a team project for the Web Programming Practicum course (Universitas Pasundan).
 
-My Contributions :
-- Login & Register Systems
-- CRUD for game & Categories
-- Implement Buying Process (Cart, Checkout, Transaksi)
-- Database Scheme
-- Middlewares & Admin Systems
+**Live demo:** https://cosmic-bunny.rezaa.me/ [VERIFY it loads]
 
-How to run
-- Clone this repo
-- run composer install
-- Copy file .env.example to .env and configure
-- run php artisan migrate
-- run php artisan serve
+## Features
 
-Developer Team
-Proyek ini dikerjakan secaara Kolaboratif, mencakup Frontend, Backend, dan UI/UX Design
+- User registration and login
+- Role-based access: customers and admins
+- Browse games and categories
+- Admin management of games and categories (CRUD)
+- Cart, checkout, and transaction records
 
-Repo asal :
-https://github.com/rezaageng/cosmic-bunny
+## Tech stack
+
+- Laravel (PHP), MySQL
+- JWT authentication, role-based access control
+- Blade templates, Tailwind CSS, Vite
+
+## My contributions (Backend)
+
+- Login and register system
+- CRUD for games and categories
+- Buying process: cart, checkout, and transactions
+- Database schema
+- Middlewares and admin system
+
+## Getting started
+
+Requirements: PHP, Composer, Node.js, MySQL.
+
+```bash
+git clone https://github.com/FawwasSabil25/cosmic-bunny.git   # [VERIFY repo URL]
+cd cosmic-bunny
+composer install
+npm install
+cp .env.example .env        # then set your database credentials
+php artisan key:generate
+php artisan migrate
+php artisan jwt:secret      # [VERIFY: only if the project uses tymon/jwt-auth]
+npm run dev                 # in one terminal
+php artisan serve           # in another terminal
+```
+
+## Team
+
+Built collaboratively by a team covering frontend, backend, and UI/UX design.
+Original repository: https://github.com/rezaageng/cosmic-bunny
+
+## Screenshots
+
+[PLACEHOLDER: add 2-3 screenshots, e.g. home page, cart, admin panel]
